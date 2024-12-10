@@ -1,0 +1,61 @@
+/* main.cssの内容をベースに使用 */
+@import url('../css/main.css');
+
+/* tags.php固有のスタイル */
+.tag-container {
+    margin-top: 32px;
+}
+
+.tag-section {
+    margin-bottom: 48px;
+}
+
+.tag-title {
+    color: #2d3436;
+    font-size: 24px;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #4a90e2;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 32px;
+}
+
+.image-container {
+    min-height: 340px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img,
+.image-container video {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-container div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-tag,
+.image-shooting_at {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+form {
+    margin-top: 8px;
+}
+
+h1 a {
+    color: #4a90e2;
+    text-decoration: none;
+}

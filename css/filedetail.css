@@ -1,0 +1,105 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    margin-bottom: 30px;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="file"] {
+    padding: 8px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.updateBtn, .removeBtn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.updateBtn {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.removeBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.updateBtn:hover {
+    background-color: #357abd;
+}
+
+.removeBtn:hover {
+    background-color: #c82333;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: #4a90e2;
+} 

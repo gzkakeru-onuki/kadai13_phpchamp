@@ -1,0 +1,20 @@
+{
+    "name": "php_tour/project",
+    "description": "写真の管理アプリ",
+    "require": {
+        "monolog/monolog": "^3.8",
+        "google/cloud-vision": "^1.10",
+        "google/cloud-translate": "^1.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpTour\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gzkakeru-onuki",
+            "email": "gzdevonuki@gmail.com"
+        }
+    ]
+}
